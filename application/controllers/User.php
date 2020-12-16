@@ -38,7 +38,6 @@ class User extends CI_Controller {
             'get_pendidikan' => $this->user->get_pendidikan($id_user),
             'get_pelatihan' => $this->user->get_pelatihan($id_user),
             'get_pekerjaan' => $this->user->get_pekerjaan($id_user),
-            'get_skill' => $this->user->get_skill($id_user),
         );
         $data = array(
             "page" => $this->load("Dashboard", $path) ,
